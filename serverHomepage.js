@@ -1,0 +1,35 @@
+// Create a constant ('express') in order to export an Express module
+// application that connect with HTTP and middleware modules in Node.js
+// back-end server for accepting HTTP requests and responses.
+const express = require('express');
+
+// Create a constant ('autonOfyApplication') object for calling the return
+// ('express') object to create an Express module application.
+const   autonOfyApplication = express();
+
+// Create a constant ('path') object in order to export the Path module that provides
+// utilities for working with file and directory paths.
+const path = require('path');
+
+// Create a constant ('path') object for calling the back-end server to listen to 
+// clients or users messages.
+const port = 3000;
+
+//
+autonOfyApplication.listen(port, function() {
+    console.log('Express is listening to indexHomepage.html on port ' + port);
+});
+
+//
+autonOfyApplication.use(express.static('public'));
+
+//
+autonOfyApplication.get('/', function(request, response) {
+    response.sendFile(path.join(__dirname + '/indexHomepage.html'));
+});
+
+
+
+
+
+
