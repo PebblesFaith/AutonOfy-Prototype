@@ -15,12 +15,14 @@ const path = require('path');
 // clients or users messages.
 const port = 3000;
 
-//
+// The below script requires from Node.js dependency Express Module to initializes the
+// 'autonOfyApplication' object and set the 'autonOfyApplication' object to listen onto
+// onto local port 3000.
 autonOfyApplication.listen(port, function() {
     console.log('Express is listening to indexHomepage.html on port ' + port);
 });
 
-//
+// 
 autonOfyApplication.use(express.static('public'));
 
 //
