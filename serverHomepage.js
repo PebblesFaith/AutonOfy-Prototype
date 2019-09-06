@@ -16,13 +16,15 @@ const path = require('path');
 const port = 3000;
 
 // The below script requires from Node.js dependency Express Module to initializes the
-// 'autonOfyApplication' object and set the 'autonOfyApplication' object to listen onto
+// 'autonOfyApplication' object and set the 'autonOfyApplication' object to listen
 // onto local port 3000.
 autonOfyApplication.listen(port, function() {
     console.log('Express is listening to indexHomepage.html on port ' + port);
 });
 
-// 
+// The autonofyApplication object serve, as a static file(s) such as, css, html, images and JavaScript language
+// using the 'use' middleware function in the below specified response path is executed when a
+// clients or users' HTTP Request Methods route path matches the reponse path. 
 autonOfyApplication.use(express.static('public'));
 
 //
