@@ -32,8 +32,18 @@ autonOfyApplication.get('/', function(request, response) {
     response.sendFile(path.join(__dirname + '/indexHomepage.html'));
 });
 
+autonOfyApplication.get('/indexHomepage.html', function(request, response) {
+    response.sendFile(path.join(__dirname + '/indexHomepage.html'));
+});
 
 
+autonOfyApplication.get('/indexAbout.html', function(request, response) {
+    response.sendFile(path.join(__dirname + '/indexAbout.html'));
+});
+
+autonOfyApplication.get('/WhatWeDo.html', function(request, response) {
+    response.sendFile(path.join(__dirname + '/WhatWeDo.html'));    
+});
 
 
 
