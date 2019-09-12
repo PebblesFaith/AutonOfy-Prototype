@@ -45,5 +45,10 @@ autonOfyApplication.get('/WhatWeDo.html', function(request, response) {
     response.sendFile(path.join(__dirname + '/WhatWeDo.html'));    
 });
 
+autonOfyApplication.get('/ContactUs.html', function(request, response) {
+    response.sendFile(path.join(__dirname + '/ContactUs.html'));    
+});
+
+
 
 
