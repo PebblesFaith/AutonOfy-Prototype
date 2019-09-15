@@ -175,43 +175,14 @@ body {
     border: none;  
   }
 
- /* Setup main paragraph flex container to houses inside one (1) div paragraph with padding. */
-.paragraph-flex-container1 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px; 
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    justify-content: center;
-}
-
-/* Setup second (2nd) paragraph flex container to houses inside one (1) paragraph class selector with padding. */
-.paragraph-flex-container1 > div {
-    margin-top: 0px;
-    width: 900px;
-    background-color: rgb(255, 255, 255);
-    padding: 25px;    
-}
+ 
 
 
- /* Create selector for element to style a thin left border. */
-.border1 {
-    border-left: 3px solid rgb(107, 107, 107);
-    background-color: rgb(255, 255, 255);
-    color: rgb(107, 107, 107);  
-    font-family: Book Antiqua serif;
-    font-size: 17px;
-}
 
-/* Create class paragraph selector (p1) in order to style the content. */
-.p1 {
-    line-height: 20px;
-    font-family: 'Book Antiqua', Times, serif;
-    font-size: 18px;   
-    color: rgb(107, 107, 107); 
-    line-height: 25px;
-}
 
+
+
+  
 
 /* Create row container to house three (3) individual  columns. */ 
 .row7 {
