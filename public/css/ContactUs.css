@@ -1,4 +1,3 @@
-
 body {
     background-color: white;
     height: 1500px;
@@ -131,28 +130,7 @@ body {
   
   }
   
-  /* AutoNofy Banner for Home page. */
-  .banner1 {
-    background-color: rgb(255, 255, 255);
-    font-family: 'Book Antiqua', Times, serif;
-    font-size: 10vw;
-    font-style: italic; 
-    max-width: 1400px;
-    height: 170px;
-    text-align: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1 2 auto;
-    justify-content: center;
-    color: rgb(107, 107, 107);
-  }
-
-  #noline1 {
-    text-decoration: none;
-    color: rgb(107, 107, 107);
-  }
+  
   
   /* Main flex box container to store "AutonOfy Strip Double Line Under Header" picture into sub-containers. */
   .flex-containerPic1 {
@@ -195,14 +173,7 @@ body {
 }
 
 
- /* Create selector for element to style a thin left border. */
-.border1 {
-    border-left: 3px solid rgb(107, 107, 107);
-    background-color: rgb(255, 255, 255);
-    color: rgb(107, 107, 107);  
-    font-family: Book Antiqua serif;
-    font-size: 17px;
-}
+
 
 /* Create class paragraph selector (p1) in order to style the content. */
 .p1 {
@@ -213,188 +184,10 @@ body {
     line-height: 25px;
 }
 
-/* Create row container to house three (3) individual  columns. */ 
-.row7 {
-    margin-top: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;    
-    align-items: center;
-    justify-content: center;     
-    background-color:rgb(255, 255, 255);
-  }
-  
-  /* Create three (3) columns container inside row in order to places titles inside each containers.*/
-  .column7 {
-    flex: 100%;
-    max-width: 100%;
-    padding: 0 4px;
-    text-align: center;
-    font-size: 15px;                               
-    font-family: 'Book Antiqua', Times, serif; 
-    font-style: italic;   
-    background-color: rgb(255, 255, 255);
-    color: rgb(107, 107, 107);
-    border: 2px;
-  }
 
-  /* Create three (3) columns container inside row in order to places contents inside each containers.*/
-  .flex-container7 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;  
-    background-color:  rgb(255, 255, 255);
-    align-items: center;
-    justify-content: center; 
-    }
-    
-    /* Create three (3) sub-containers div elements for storing container in each containers. */    
-    .flex-container7 > div {
-    background-color: rgb(255, 255, 255);
-    width: 900px;
-    margin: 10px;
-    text-align: left;
-    line-height: 25px;
-    font-size: 18px;
-    margin-left: left;
-    border: none;  
-    font-family: 'Book Antiqua', Times, serif; 
-    font-style: italic; 
-    color: rgb(107, 107, 107);
-    }  
-      
-  /* Responsive layout - makes a two (2) column-layout instead of one (1) column in third (3rd) icons row. */
-  @media (max-width: 1000px) {
-    .column7 {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
-  @media (max-width: 800px) {
-    .column7 {
-      flex: 75%;
-      max-width: 75%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
-  @media (max-width: 600px) {
-    .column7 {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
 
- /* Create class paragraph (p3) selector in order to places custom style titles for each containers.*/
-
-  .p2 {
-    line-height: 20px;
-    font-family: 'Book Antiqua', Times, serif;
-    font-size: 18px;   
-    color: rgb(107, 107, 107); 
-    line-height: 25px;
-    text-align: left;
-    margin: 15px;
-
-  }
-
-  /* Assign selector button to div element for linking button20 to the "LearnMore1" web page. */
-  .button20 {
-    border: none;
-    background-color: inherit;
-    padding: 10px 18px;
-    font-family: 'Book Antiqua', Times, serif;
-    font-size: 18px;
-    cursor: 16px;
-    cursor: pointer;
-    display: inline-block; 
-    color: rgb(107, 107, 107);   
-    }
-    
-    .button20:hover {background: rgb(238, 237, 233);}
-    .LearnMore1 {color: rgb(107, 107, 107);}
-      
-  /* Main flex box container to store "Company Membership SignUp" into sub-containers. */
-  .flex-container2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;  
-    background-color: rgb(255, 255, 255); 
-    align-items: center;
-    justify-content: center;
-  }
+ 
   
-  /* Sub-container flex box to store "Company Membership SignUp" content. */
-  .flex-container2 > div {
-    background-color: rgb(255, 255, 255);
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-    line-height: 25px;
-    font-size: 19px;
-    margin-left: center;
-    border: none; 
-    font-family: 'Book Antiqua', Times, serif; 
-    font-style: italic; 
-  }
-  
-  /* Assign selector button to div element for linking button5 to the "Company Membership SignUp" web page. */
-  .button5 {
-      border: none;
-      background-color: inherit;
-      padding: 14px 28px;
-      font-family: Book Antiqua;
-      font-size: 16px;
-      cursor: 16px;
-      cursor: pointer;
-      display: inline-block;   
-      color: rgb(107, 107, 107);
-  }
-  
-  .button5:hover {background: #eee;}
-  .companysignup {color: rgb(107, 107, 107);}
-  
-  /* Main flex box container to store "Consumer SignUp" into sub-containers. */
-  .flex-container3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;  
-    background-color: rgb(255, 255, 255); 
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Sub-container flex box to store "Consumer SignUp" content. */
-  .flex-container3 > div {
-    background-color: rgb(255, 255, 255);
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-    line-height: 25px;
-    font-size: 19px;
-    margin-left: center;
-    border: none; 
-    font-family: 'Book Antiqua', Times, serif; 
-    font-style: italic; 
-  }
-  
-  /* Assign selector button to div element for linking button5 to the "Consumer SignUp" web page. */
-  .button6 {
-      border: none;
-      background-color: inherit;
-      padding: 14px 28px;
-      font-family: Book Antiqua;
-      font-size: 16px;
-      cursor: 16px;
-      cursor: pointer;
-      display: inline-block; 
-      color: rgb(107, 107, 107);   
-  }
-  
-  .button6:hover {background: #eee;}
-  .consumersignup {color: rgb(107, 107, 107);}
   
   /* Main flex box container for storing individual buttons sub-containers. */
   .flex-container4 {
@@ -428,6 +221,141 @@ body {
   }
   
   * {
+    box-sizing: border-box;
+  }
+
+
+  /* Create row container to house two (2) individual  columns. */ 
+.row-Contact {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;    
+  align-items: center;
+  justify-content: center;     
+  background-color:  rgb(231, 231, 231);
+}
+
+/* Create two (2) columns container inside row in order to store contents inside each containers.*/
+.column-Contact {
+  flex: 50.0%;
+  max-width: 50.0%;
+  padding: 0 4px;
+  text-align: center;
+  font-size: 15px;                               
+  font-family: 'Book Antiqua', Times, serif; 
+  font-style: italic;   
+  background-color:  rgb(231, 231, 231);
+  color: rgb(107, 107, 107);
+  border: 2px;
+}
+
+/* Create two (2) columns container inside row in order to places contents inside each containers.*/
+.flex-container-Contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  background-color:  rgb(231, 231, 231);
+  align-items: center;
+  justify-content: center; 
+  }
+
+
+/* Add margin and align text for title H3. */
+#titleContactUs {
+    margin: 25px;
+    text-align: center;
+}
+
+/* Add margins to the sentences for the 'Contact Us' column. */
+
+#subjectContactUs {
+  
+    margin: 15px;
+} 
+
+   /* AutoNofy Banner for Home page. */
+   .banner1 {
+    background-color:  rgb(231, 231, 231);
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 8vw;
+    font-style: italic; 
+    max-width: 500px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    justify-content: center;
+    color: rgb(107, 107, 107);
+    
+  }
+
+  #noline1 {
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+  }
+  
+  
+  /* Create two (2) sub-containers div elements for storing container inside each containers. */    
+  .flex-container-Contact > div {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 300px;
+  margin: 0px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 18px;
+  margin-left: left;
+  border: none;  
+  font-family: 'Book Antiqua', Times, serif; 
+  font-style: italic; 
+  color: rgb(107, 107, 107);
+  } 
+
+ 
+  
+  /* Create AutonOfy picture to store onto the right-side container. */
+  #contactUs-Picture {     
+    display: block;
+    margin-top: 100px;  
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+    
+  }
+    
+/* Responsive layout - makes a two (2) column-layout instead of one (1) column in third (3rd) icons row. */
+@media (max-width: 1000px) {
+  .column-Contact {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+@media (max-width: 800px) {
+  .column-Contact {
+    flex: 75%;
+    max-width: 75%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+@media (max-width: 600px) {
+  .column-Contact {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+* {
     box-sizing: border-box;
   }
   
@@ -945,8 +873,7 @@ body {
     background-color: rgb(107, 107, 107);
     color: white;
   }
-
-    
+  
   /* Fourth (4th) row footer is position with top margin pixels selected to provide space between footer row*/
   #alignment6 {
   margin-top: 30px;
@@ -979,15 +906,16 @@ body {
   }
   
  
-  .break {
-    flex-basis: 100%;
-    height: 0;
-  }
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
+
+
+
+
+
+
+
+
 
   
  
